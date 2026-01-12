@@ -50,3 +50,13 @@ footer {
 footer > .social-icons > img {
   width: 40px;
 }
+
+@media (width<768px) {
+  main {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  main img, main p {
+    width: 100%;
+  }
+}
